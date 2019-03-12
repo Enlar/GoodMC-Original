@@ -183,15 +183,15 @@ gui:
         material: WRITABLE_BOOK
         slot: 17
       back:
-        name: '&cВернуться'
+        name: '&cНазад'
         lore:
-        - '&7Вернуться к'
-        - '&eпоселениям&7.'
+        - '&7Перейти назад к'
+        - '&eПоселению&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 19
     a:
       settings_noAccess:
-        name: '&4Отклонено: &eНастройки'
+        name: '&4Отклонено: &eНастройки.'
         lore:
         - '&cТебе запрещено редактировать'
         - '&cнастройки в данном поселении.'
@@ -213,8 +213,8 @@ gui:
       back:
         name: '&cВернуться'
         lore:
-        - '&7Вернуться к'
-        - '&eпоселению&7.'
+        - '&7Перейти назад к'
+        - '&eПоселению&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 37
     f:
@@ -360,7 +360,7 @@ gui:
         name: '&cВернуться'
         lore:
         - '&7Вернуться к'
-        - '&eпоселению&7.'
+        - '&eПоселению&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 28
     f:
@@ -426,7 +426,7 @@ gui:
         name: '&cНазад'
         lore:
         - '&7Назад к'
-        - '&eпоселению&7.'
+        - '&eПоселению&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 19
     f:
@@ -466,7 +466,7 @@ gui:
         - ' '
         - '&8- &7Игроки так же'
         - '  &7могут иметь данную'
-        - '  &7роль только в опредеменном'
+        - '  &7роль только в определенном'
         - '  &7чанке(ах)'
         material: ENCHANTED_GOLDEN_APPLE
         slot: 11
@@ -478,7 +478,7 @@ gui:
         - ' '
         - '&8- &7Игроки так же'
         - '  &7могут иметь данную'
-        - '  &7роль только в опредеменном'
+        - '  &7роль только в определенном'
         - '  &7чанке(ах)'
         material: APPLE
         slot: 17
@@ -559,9 +559,9 @@ gui:
         - '&8- &7Пригласите игрока только в этот чанк:'
         - '  &8/&7Lands trust &8<&7Player&8> &7here'
         - ' '
-        - '&8- &bSet a role &7in the whole land:'
+        - '&8- &bУстанови роль во &7всём участке:'
         - '  &8/&aLands setRole &8<&aPlayer&8>'
-        - '&8- &7Set a role in an chunk:'
+        - '&8- &7Установи роль в чанке:'
         - '  &8/&7Lands setRole &8<&7Player&8> &7here'
         material: PAPER
         from: 10
@@ -719,172 +719,171 @@ gui:
         name: '&bЛомание блоков'
         lore:
         - '&7Статус: {enabled}'
-        - '&7Разблокированно: {unlocked}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Дать разрешение на ломание блоков для'
-        - '&7этой роли?'
+        - '&7Дать этой роли права на'
+        - '&7ломание блоков?'
         material: IRON_PICKAXE
         from: 10
         to: 27
       block_place:
-        name: '&bPlace Blocks'
+        name: '&bИспользование блоков'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7place blocks?'
+        - '&7Дать этой роли права на'
+        - '&7использоваие блоков на участке?'
         material: STONE
         from: 10
         to: 27
       block_ignite:
-        name: '&bBlock Ignite'
+        name: '&bПоджигание блоков'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7ignite blocks?'
+        - '&7Дать этой роли права на'
+        - '&7поджигание блоков?'
         material: FLINT_AND_STEEL
         from: 10
         to: 27
       interact_general:
-        name: '&bGeneral Interaction'
+        name: '&bОбщее взаимодействие'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7interact?'
+        - '&7Дать этой роли права на'
+        - '&7общее взаимодействие с участком?'
         material: STRING
         from: 10
         to: 27
       interact_door:
-        name: '&bOpen Doors'
+        name: '&bОткрытие дверей'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7open doors?'
+        - '&7Дать этой роли права на'
+        - '&7открытие дверей?'
         material: IRON_DOOR
         from: 10
         to: 27
       interact_container:
-        name: '&bOpen Containers'
+        name: '&bИспользование контейнеров'
         lore:
-        - '&7Status: {enabled}'
+        - '&7Statu: {enabled}'
         - '&7Unlocked: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7open containers?'
+        - '&7Дать этой роли права на'
+        - '&7открытие и использование контейнеров?'
         material: CHEST
         from: 10
         to: 27
       interact_mechanism:
-        name: '&bUse Levers'
+        name: '&bИспользование переключателей'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7use levers etc.?'
+        - '&7Дать этой роли права на'
+        - '&7использование рычагов, кнопок и т.д?'
         material: REDSTONE
         from: 10
         to: 27
       attack_player:
-        name: '&bAttack Players'
+        name: '&bАтакование игроков'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7attack players?'
+        - '&7Дать этой роли права на'
+        - '&7атакование других игроков на этом участке?'
         - ' '
-        - '&8- &7They can only attack'
-        - '  &7players which can'
-        - '  &7also acctack them.'
+        - '&8- &7Они могут атаковать только'
+        - '  &7тех, которые могут'
+        - '  &7атаковать их.'
         material: IRON_SWORD
         from: 10
         to: 27
       attack_animal:
-        name: '&bAttack Animals'
+        name: '&bАтакование животных'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7attack animals?'
+        - '&7Дать этой роли права на'
+        - '&7атакование животных?'
         material: BOW
         from: 10
         to: 27
       player_trust:
-        name: '&bTrust Players'
+        name: '&bДобавление игроков'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7trust other players?'
+        - '&7Дать этой роли права на'
+        - '&7добавление игроков на этот участок?'
         material: CACTUS_GREEN
         from: 10
         to: 27
       player_setRole:
-        name: '&bSet Roles'
+        name: '&bНазначать роли'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7set roles for players?'
+        - '&7Дать этой роли права на'
+        - '&7назначение ролей на этом участке?'
         - ' '
-        - '&8- &7They won''t be bale to'
-        - '  &7edit players which have'
-        - '  &7an higher role.'
-        - '&8- &7Also they won''t be able'
-        - '  &7to set an role which is'
-        - '  &7higher than their own role.'
+        - '&8- &7Они не могут редактировать'
+        - '  &7роль тех игроков, которые имеют'
+        - '  &7роль выше по рангу'
+        - '&8- &7Также они не могут назначать '
+        - '  &7те роли игрокам, которые выше'
+        - '  &7чем их собственная роль'
         material: CYAN_DYE
         from: 10
         to: 27
       player_untrust:
-        name: '&bUntrust Players'
+        name: '&bУдаление игроков'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7untrust players?'
+        - '&7Дать этой роли права на'
+        - '&7удаление игроков с этого участка?'
         - ' '
-        - '&8- &7They won''t be able'
-        - '  &7to untrust players which'
-        - '  &7have an higher role.'
+        - '&8- &7Они не могут удалить '
+        - '  &7игроков которые имеют'
+        - '  &7роль выше чем их собственная.'
         material: ROSE_RED
         from: 10
         to: 27
       setting_edit:
-        name: '&bEdit Land Settings'
+        name: '&bИзменять настройки участка'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7edit land settings?'
+        - '&7Дать этой роли права на'
+        - '&7изменение настроек для этого участка?'
         - ' '
-        - '&8- &7They won''t be'
-        - '  &7able to edit their'
-        - '  &7own role settings.'
+        - '&8- &7Они не могут поменять'
+        - '  &7настройки для их роли.'
         material: COMMAND_BLOCK
         from: 10
         to: 27
     a:
       failure_permission:
-        name: '&4Failure: &cNo permission'
+        name: '&4Отклонено: &cНет разрешения.'
         lore:
-        - '&7You''re not allowed to'
-        - '&7edit this setting.'
+        - '&7У вас не достаточных прав'
+        - '&7для редактирования этих настроек.'
         - ' '
-        - '&8- &7You need permission'
+        - '&8- &7Вам требуется разрешение.'
         - '  &e{permission}&7.'
         material: RED_STAINED_GLASS_PANE
     p:
@@ -897,99 +896,99 @@ gui:
         from: 29
         to: 36
   settings_role_advanced:
-    title: '&8Advanced Settings &7-> {role}'
+    title: '&8Дополнительные настройки &7-> {role}'
     size: 27
     s:
       back:
-        name: '&cBack'
+        name: '&cНазад'
         lore:
-        - '&7Go back to'
-        - '&eSelect Role&7.'
+        - '&7Перейти назад к'
+        - '&eВыбор роли&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 19
     f:
       page_previous:
-        name: '&9Previous Page'
+        name: '&9Предыдущая страница'
         lore:
-        - '&7Go to previous page:&9 {previous}'
+        - '&7Перейти на предыдущую страницу:&9 {previous}'
         - ' '
-        - '&8- &7Current:&b {current}'
+        - '&8- &7Текущая страница:&b {current}'
         material: ARROW
         slot: 21
       page_next:
-        name: '&aNext Page'
+        name: '&aСледующая страница'
         lore:
-        - '&7Go to next page:&9 {next}'
+        - '&7Перейти на следующую страницу:&9 {next}'
         - ' '
-        - '&8- &7Current:&b {current}'
+        - '&8- &7Текущая страница:&b {current}'
         material: ARROW
         slot: 25
     l:
       land_claim:
-        name: '&bClaim Land'
+        name: '&bДобавление чанков'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7claim chunks for this land?'
+        - '&7Дать этой роли права на'
+        - '&7добавление чанков к этому участку?'
         material: IRON_SHOVEL
         from: 10
         to: 18
       land_spawn_set:
-        name: '&bSet Landspawn'
+        name: '&bРедактировать спавн участка'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7edit the spawnpoint of this land?'
+        - '&7Дать этой роли права на'
+        - '&7редактирование спавна этого участка?'
         material: LEVER
         from: 10
         to: 18
       land_spawn_teleport:
-        name: '&bTeleport to Spawn'
+        name: '&bТелепортация к участку'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7teleport to the land spawn?'
+        - '&7Дать этой роли права на'
+        - '&7тп на спавн участка?'
         material: ENDER_PEARL
         from: 10
         to: 18
       land_rename:
-        name: '&bRename Land'
+        name: '&bПереименование участка'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7rename this land?'
+        - '&7Дать этой роли права на'
+        - '&7переименование этого участка?'
         material: NAME_TAG
         from: 10
         to: 18
       land_claim_border:
-        name: '&bClaim Land at Border'
+        name: '&bДобавлять чанки около границ'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow this role to'
-        - '&7claim chunks for their'
-        - '&7lands directly at your'
-        - '&7border?'
+        - '&7Дать этой роли права на'
+        - '&7добавление чанков, находящийся'
+        - '&7около границ этого участка,'
+        - '&7к своему участку?'
         material: LEAD
         from: 10
         to: 18
     a:
       failure_permission:
-        name: '&4Failure: &cNo permission'
+        name: '&4Отклонено: &cНет разрешения'
         lore:
-        - '&7You''re not allowed to'
-        - '&7edit this setting.'
+        - '&7Вам не разрешено редактировать'
+        - '&7этот параметр.'
         - ' '
-        - '&8- &7You need permission'
+        - '&8- &7Вам требуется разрешение'
         - '  &e{permission}&7.'
         material: RED_STAINED_GLASS_PANE
     p:
@@ -1002,102 +1001,99 @@ gui:
         from: 19
         to: 27
   settings_land:
-    title: '&8Land Settings'
+    title: '&8Настройки участка'
     size: 27
     s:
       back:
-        name: '&cBack'
+        name: '&cНазад'
         lore:
-        - '&7Go back to'
-        - '&eSelect Setting&7.'
+        - '&7Перейти назад к'
+        - '&eВыбору настроек&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 19
     f:
       page_previous:
-        name: '&9Previous Page'
+        name: '&9Предыдущая страница'
         lore:
-        - '&7Go to previous page:&9 {previous}'
+        - '&7Перейти на предыдущую страницу:&9 {previous}'
         - ' '
-        - '&8- &7Current:&b {current}'
+        - '&8- &7Текущая страница:&b {current}'
         material: ARROW
         slot: 21
       page_next:
-        name: '&aNext Page'
+        name: '&aСледующая страница'
         lore:
-        - '&7Go to next page:&9 {next}'
+        - '&7Перейти на следующую страницу:&9 {next}'
         - ' '
-        - '&8- &7Current:&b {current}'
+        - '&8- &7Текущая страница:&b {current}'
         material: ARROW
         slot: 25
     l:
       entity_griefing:
-        name: '&bEntity Griefing'
+        name: '&bГрифинг мобов'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow entities to'
-        - '&7grief blocks?'
+        - '&7Разрешить грифинг мобов?'
         material: CREEPER_HEAD
         from: 10
         to: 18
       tnt_griefing:
-        name: '&bTNT Griefing'
+        name: '&bИспользование TNT'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow TNT blocks to'
-        - '&7destroy blocks?'
+        - '&7Разрешить использование TNT?'
         material: TNT
         from: 10
         to: 18
       piston_griefing:
-        name: '&bAllow Piston Griefing'
+        name: '&bГрифинг поршнями'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow pistons to'
-        - '&7grief blocks?'
+        - '&7Разрешить грифинг при'
+        - '&7помощи поршней?'
         - ' '
-        - '&8- &7If enabled, players'
-        - '  &7can grief your land from'
-        - '  &7wilderness by using'
-        - '  &7pistons to push blocks.'
+        - '&8- &7Если этот параметр включен, то'
+        - '  &7игроки могут гриферить этот участок'
+        - '  &7с помощью поршней.'
         material: PISTON
         from: 10
         to: 18
       monster_spawn:
-        name: '&bMonster Spawning'
+        name: '&bСпавн монстров'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow monsters to'
-        - '&7spawn?'
+        - '&7Разрешить спавн'
+        - '&7монстров?'
         material: SPAWNER
         from: 10
         to: 18
       animal_spawn:
-        name: '&bAnimal Spawning'
+        name: '&bСпавн животных'
         lore:
-        - '&7Status: {enabled}'
-        - '&7Unlocked: {unlocked}'
+        - '&7Статус: {enabled}'
+        - '&7Разблокировано: {unlocked}'
         - ' '
-        - '&7Allow animals to'
-        - '&7spawn?'
+        - '&7Разрешить спавн'
+        - '&7животных?'
         material: TALL_GRASS
         from: 10
         to: 18
     a:
       failure_permission:
-        name: '&4Failure: &cNo permission'
+        name: '&4Отклонено: &cНет разрешения'
         lore:
-        - '&7You''re not allowed to'
-        - '&7edit this setting.'
+        - '&7Вам не разрешено редактировать'
+        - '&7этот параметр.'
         - ' '
-        - '&8- &7You need permission'
+        - '&8- &7Вам требуется разрешение.'
         - '  &e{permission}&7.'
         material: RED_STAINED_GLASS_PANE
     p:
@@ -1110,81 +1106,80 @@ gui:
         from: 19
         to: 27
   settings_taxes:
-    title: '&8Taxes'
+    title: '&8Налоги'
     size: 27
     s:
       plus_1:
-        name: '&aAdd $1'
+        name: '&aДобавить $1'
         lore:
-        - '&7Add $1 to'
-        - '&7tax value.'
+        - '&7Добавить $1 к'
+        - '&7налогу.'
         material: GLOWSTONE_DUST
         slot: 11
       plus_100:
-        name: '&aAdd $100'
+        name: '&aДобавить $100'
         lore:
-        - '&7Add $100 to'
-        - '&7tax value.'
+        - '&7Добавить $100 к'
+        - '&7налогу.'
         material: GLOWSTONE_DUST
         slot: 12
       plus_1000:
-        name: '&aAdd $1000'
+        name: '&aДобавить $1000'
         lore:
-        - '&7Add $1000 to'
-        - '&7tax value.'
+        - '&7Добавить $1000 к'
+        - '&7налогу.'
         material: GLOWSTONE_DUST
         slot: 13
       minus_1000:
-        name: '&cRemove $1000'
+        name: '&cУбрать $1000'
         lore:
-        - '&7Remove $1000 from'
-        - '&7tax value.'
+        - '&7Убрать $1000 с'
+        - '&7налога.'
         material: REDSTONE
         slot: 15
       minus_100:
-        name: '&cRemove $100'
+        name: '&cУбрать $100'
         lore:
-        - '&7Remove $100 from'
-        - '&7tax value.'
+        - '&7Убрать $100 с'
+        - '&7налога.'
         material: REDSTONE
         slot: 16
       minus_1:
-        name: '&cRemove $1'
+        name: '&cУбрать $1'
         lore:
-        - '&7Remove $1 from'
-        - '&7tax value.'
+        - '&7Убрать $1 с'
+        - '&7налога.'
         material: REDSTONE
         slot: 17
       back:
-        name: '&cBack'
+        name: '&cНазад'
         lore:
-        - '&7Go back to'
-        - '&eSelect Setting&7.'
+        - '&7Перейти назад к'
+        - '&eSВыбор настроек&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 19
     f:
       tax:
-        name: '&bTax:&7 {tax}'
+        name: '&bНалог:&7 {tax}'
         lore:
-        - '&7Next tax is in&b {next} &7days.'
-        - '&7Is total: {total}'
+        - '&7Следующий сбор налогов через:&b {next} &7days.'
+        - '&7В общем: {total}'
         - ' '
-        - '&8- &7Click here to change'
-        - '  &7the total setting.'
-        - '&8- &7If the tax is total,'
-        - '  &7players will only'
-        - '  &7pay the tax on land'
-        - '  &7or chunk join.'
-        - '&8- &7Players, which are'
-        - '  &7trusted in the whole'
-        - '  &7land, won''t pay the'
-        - '  &7tax value from chunks.'
-        - '  &7They pay the value of'
-        - '  &7this land.'
-        - '&8- &7Players, which are'
-        - '  &7trusted in certain chunks,'
-        - '  &7will only pay the tax'
-        - '  &7values of the chunks.'
+        - '&8- &7Настройки для общего налога.'
+        - '&8- &7Если налог является общим,'
+        - '  &7то игрокам, впервые присоединяющийся'
+        - '  &7придётся платить только 1 раз, когда они вступают '
+        - '  &7в этот участок или чанк.'
+        - ' '
+        - '&8- &7Игроки, которые добавлены'
+        - '  &7в весь участок не будут платить'
+        - '  &7налоги в чанках участка'
+        - '  &7Они платят налог за весь участок.
+        - ' '
+        - '&8- &7Игроки, которые добавленны в'
+        - '  &7определённых чанках,'
+        - '  &7Будут платить налоги только'
+        - '  &7за чанки в которых они прописаны.'
         material: GOLD_INGOT
         slot: 14
     p:
@@ -1193,7 +1188,7 @@ gui:
         from: 1
         to: 27
   actionConfirm:
-    title: '&8Confirm Action'
+    title: '&8Подтвердите действие'
     size: 27
     s:
       info:
@@ -1472,73 +1467,71 @@ gui:
         from: 1
         to: 27
   player_info:
-    title: '&8Player {player}'
+    title: '&8Игрок {player}'
     size: 27
     f:
       lands:
-        name: '&bLands'
+        name: '&bУчастки'
         lore:
         - '&e{lands}'
         material: SIGN
         slot: 16
       seen:
-        name: '&bLast seen'
+        name: '&bПоследний раз онлайн:'
         lore:
         - '&c{seen}'
         material: CLOCK
         slot: 16
   land_infos:
-    title: '&8Land {land}'
+    title: '&8Участок {land}'
     size: 45
     f:
       back:
-        name: '&cBack'
+        name: '&cНазад'
         lore:
-        - '&7Go back to'
-        - '&eLands&7.'
+        - '&7Перейти назад к'
+        - '&eУчастки&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 37
       close:
-        name: '&cClose'
+        name: '&cЗакрыть'
         lore:
-        - '&7Close this menu.'
+        - '&7Закрыть это меню.'
         - ' '
-        - '&8- &7You can open it again'
-        - '  &7with &8/&aLands info {land}&7.'
+        - '&8- &7Ты можешь его открыть с '
+        - '  &7помощью &8/l info {land}&7.'
         material: RED_STAINED_GLASS_PANE
         slot: 9
       owner:
-        name: '&4Owner &7->&b {player}'
+        name: '&4Руководитель &7->&b {player}'
         lore:
-        - '&7He''s the owner of'
-        - '&7this land. Contact'
-        - '&7him, if you have any'
-        - '&7questions.'
+        - '&7Нажми для редактирования'
+        - '&7или просмотра данной роли.'
         material: PLAYER_HEAD
         slot: 14
       chunks:
-        name: '&aChunks &8(&7{amount}&8)'
+        name: '&aЧанки &8(&7{amount}&8)'
         lore:
         - ' '
         - '&e{chunks}'
         material: GRASS_BLOCK
         slot: 30
       admins:
-        name: '&cAdmins &8(&7{amount}&8)'
+        name: '&cАдминистраторы &8(&7{amount}&8)'
         lore:
         - ' '
         - '&e{admins}'
         material: ENCHANTED_GOLDEN_APPLE
         slot: 11
       members:
-        name: '&eMembers &8(&7{amount}&8)'
+        name: '&eУчастники &8(&7{amount}&8)'
         lore:
         - ' '
         - '&e{members}'
         material: APPLE
         slot: 17
       created:
-        name: '&bCreated'
+        name: '&bУчасток был создан:'
         lore:
         - '&e{date}'
         material: CLOCK
