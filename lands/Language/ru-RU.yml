@@ -1,7 +1,7 @@
 general:
   wYes: '&aДа'
   wNo: '&cНет'
-  none: '&cNone'
+  none: '&cНикаких'
   wilderness: '&aПустошь'
   time:
     days: '&7дней'
@@ -78,92 +78,92 @@ help:
       в состав поселния.'
     info: '&8/&7Lands info &8[&aпоселение&8] - &eПосмотреть информацию о поселении.'
     admin:
-      admin: '&8/&7Lands admin &8<&aAction&8> &8- &eAdmin commands'
-      debug: '&8/&7Lands debug &8- &eShows loaded data stats'
-      safezone: '&8/&7Lands safezone &8- &eConfigure safezone'
-      reload: '&8/&7Lands reload &8<&aValue&8> &8- &eReload config or messages'
-      about: '&8/&7Lands about &8- &eShow information about Lands'
+      admin: '&8/&7Lands admin &8<&aAction&8> &8- &eКоманды для администратора.'
+      debug: '&8/&7Lands debug &8- &eПоказывает дату и характеристики.'
+      safezone: '&8/&7Lands safezone &8- &eКонфигурировать зону безопастности.'
+      reload: '&8/&7Lands reload &8<&aValue&8> &8- &eПерезагрузить конфиг и\или сообщения.'
+      about: '&8/&7Lands about &8- &eПоказать информацию о плагине.'
 message:
   no-permission: '&8[&aLands&8] &fЭто действие игрокам недоступно.'
   world-invalid: '&8[&aLands&8] &cУказанного мира не существует.'
-  feature-disabled: '&8[&aLands&8] &cThis feature was diabled by an administrator.
-    &7He needs to enable setting&b {setting} &7in config, to let you use this feature.'
+  feature-disabled: '&8[&aLands&8] &cЭта функция была отключена администратором.
+  &7Администратору нужно включить &b {setting} в конфигурации, для возможности использование этой функции игроками.'
   noaccess:
-    chunk: '&8[&aLands&8] &cYou don''t have access for this chunk. &8(&7Land:&e {land}
+    chunk: '&8[&aLands&8] &cУ вас нет доступа к этому чанку.Он принадлежит участку: &8(&7Land:&e {land}
       &7X:&e {x} &7Z:&e {z}&8)&c.'
-    land: '&8[&aLands&8] &cYou''re not allowed to do this for this land &8(&7Land:&e
+    land: '&8[&aLands&8] &cВы не можете делать это на этом участке. &8(&7Land:&e
       {land}&8)&7.'
-    role-weight: '&8[&aLands&8] &cYou can''t edit this player. &7He has an higher
-      role than you. Contact the land owner for help.'
-    claim: '&8[&aLands&8] &cYou can''t claim land here. &7This chunk belongs to something
-      different.'
-    place: '&8[&aLands&8] &cYou''re not allowed to place blocks here.'
-    break: '&8[&aLands&8] &cYou''re not allowed to break blocks here.'
-    interact: '&8[&aLands&8] &cYou can''t interact in this chunk.'
-    ignite: '&8[&aLands&8] &cYou''re not allowed to ignite blocks in this chunk.'
-    edit: '&8[&aLands&8] &cYou''re not allowed to edit this land.'
+    role-weight: '&8[&aLands&8] &cТы не можешь редактировать роль и права этого игрока. &7Он имеет роль,
+     которая по рангу выше, чем ваша. Свяжитесь с управляющим участка для помощи.'
+    claim: '&8[&aLands&8] &cВы не можете добавить этот чанк к своему участку. &7Этот чанк уже
+     принадлежит другому участку.'
+    place: '&8[&aLands&8] &cВы не можете ставить тут блоки.'
+    break: '&8[&aLands&8] &cВы не можете ломать тут блоки.'
+    interact: '&8[&aLands&8] &cВы не имеете достаточных прав для взаимодействии с этим чанком.'
+    ignite: '&8[&aLands&8] &cВы не имеете достаточных прав для поджигания блоков в этом чанке.'
+    edit: '&8[&aLands&8] &cВы не имеете достаточных прав для редактирования этого участка.'
     player:
-      chunk-trust: '&8[&aLands&8] &cYou don''t have permission to trust an player
-        in this chunk &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
-      chunk-setRole: '&8[&aLands&8] &cYou''re not allowed to set a role in this chunk
-        &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
-      chunk-untrust: '&8[&aLands&8] &cYou''re not allowed to untrust an player in
-        his chunk &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
-      land-trust: '&8[&aLands&8] &cYou''re not allowed to trust an player in land
-        &8(&7Land: &e{land}&8)&c.'
-      land-untrust: '&8[&aLands&8] &cYou''re not allowed to untrust an player in this
-        land &8(&7Land: &e{land}&8)&c.'
-      land-setrole: '&8[&aLands&8] &cYou''re not allowed to trust an player in this
-        land &8(&e{&7Land: land}&8)&c.'
+      chunk-trust: '&8[&aLands&8] &cВы не можете добовлять игроков 
+        в данный чанк: &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
+      chunk-setRole: '&8[&aLands&8] &cВы не имеете достаточных прав для назначение ролей 
+       для игроков в этом чанке: &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
+      chunk-untrust: '&8[&aLands&8] &cВы не имеете достаточных прав для удаления игроков
+        с этого чанка: &8(&7X:&e {x} &7Z:&e {z}&8)&c.'
+      land-trust: '&8[&aLands&8] &cВы не иеете достаточных прав для добаления игроков 
+        в этот участок: &8(&7Land: &e{land}&8)&c.'
+      land-untrust: '&8[&aLands&8] &cВы не имеете достаточных прав для удаления игроков
+        с этого участка: &8(&7Land: &e{land}&8)&c.'
+      land-setrole: '&8[&aLands&8] &cВы не имеете достаточных прав для назначение ролей 
+       для игроков в этом участке: land &8(&e{&7Land: land}&8)&c.'
     combat:
-      animal: '&8[&aLands&8] &cYou''re not allowed to attack animals here.'
-      pvp-attacker: '&8[&aLands&8] &cYou''re not allowed to attack players here.'
-      pvp-target: '&8[&aLands&8] &cYour target isn''t allowed to attack players here.'
+      animal: '&8[&aLands&8] &cВы не можете атаковать животных тут.'
+      pvp-attacker: '&8[&aLands&8] &cВы не можете атаковать игроков тут.'
+      pvp-target: '&8[&aLands&8] &cВаш противник не может атаковать других тут.'
   event:
-    land-enter: '#t#a#!!1!!2!!1!!&7Land&b {land}&7:;;&7owned by&e {player}&7.'
-    land-leave: '#t#a#&aWilderness&7:;;&7Leaving&b {land};;&eFeel the wild.'
-    safzone-enter: '#t#a#!!1!!2!!1!!&7Land&b {land}&7:;;&7owned by&e {player}&7.'
-    safezone-leave: '#t#a#&aWilderness&7:;;&7Leaving&b {land};;&eFeel the wild.'
+    land-enter: '#t#a#!!1!!2!!1!!&7Участок&b {land}&7:;;&7Управляющий&e {player}&7.'
+    land-leave: '#t#a#&aWilderness&7:;;&7Покидаем&b {land};;&eСвобода!(/^▽^)/.'
+    safzone-enter: '#t#a#!!1!!2!!1!!&7Участок&b {land}&7:;;&7Управляющий&e {player}&7.'
+    safezone-leave: '#t#a#&aWilderness&7:;;&7Покидаем&b {land};;&eСвобода! ＼(0>0)／.'
   disallowWilderness:
-    break: '&8[&aLands&8] &cYou''re not allowed to break blocks in wilderness. &7You
-      can do that only in a claimed land.'
-    place: '&8[&aLands&8] &cYou''re not allowed to place blocks in wilderness. &7You
-      can do that only in a claimed land.'
-    interact: '&8[&aLands&8] &cYou''re not allowed to interact in wilderness. &7You
-      can do that only in a claimed land.'
+    break: '&8[&aLands&8] &cВы не можете ломать блоки в дикой местности. &7Вы можете
+     это делать только в заприваченном участке.'
+    place: '&8[&aLands&8] &cВы не можете ставить блоки в дикой местности. &7Вы можете
+     это делать только в заприваченном участке.'
+    interact: '&8[&aLands&8] &cВы не можете взаимодействовать с дикой местностью. &7Вы можете
+     это делать только в заприваченном участке.'
   claimblock:
-    cmdDisabled: '&8[&aLands&8] &cYou only can claim through placing claim blocks.
-      &7This command is disabled.'
-    dropped: '&8[&aLands&8] &cSome claimblocks lie on the ground. &7There was no space
-      left in your inventory.'
-    notOwner: '&8[&aLands&8] &cYou''re not allowed use this claimblock. &7It''s not
-      yours. This block belongs to&b {player}&7.'
-    noLeft: '&8[&aLands&8] &cYou have no claimblocks left. &7Contact an administrator
-      for help.'
-    success: '&8[&aLands&8] &7You got&b {blocks} &7claimblocks. &7Place them on an
-      chunk to claim it.'
+    cmdDisabled: '&8[&aLands&8] &cВы можете создать участок через "блоки привата".
+      &7Эта функция отключена.'
+    dropped: '&8[&aLands&8] &cНекоторые "блоки привата" остались на земле. &7У вас не 
+      оставалось места в инвенторе.'
+    notOwner: '&8[&aLands&8] &cВам нельзя использовать этот "блок привата". &7Он не
+      ваш. Этот блок принадлежит: &b {player}&7.'
+    noLeft: '&8[&aLands&8] &cУ вас закончились "блоки привата". &7Свяжитесь с администратором
+      за помощью.'
+    success: '&8[&aLands&8] &7 У вас &b {blocks} &7 "блок(-ов/-а) привата". &7Поставте их в
+      периметре чанка который вы хотите добавить к своему участку.'
   blacklist:
-    untrusted: '&8[&aLands&8] &cYou''re not allowed to use this command here. &7You''re
-      not trusted in this land.'
-    general: '&8[&aLands&8] &cYou''re not allowed to use this command in claimed lands.'
+    untrusted: '&8[&aLands&8] &cУ вас недостаточно прав для использования это команды здесь. &7Вы
+      не имеете доступ к этому участку.'
+    general: '&8[&aLands&8] &cВам нельзя использовать эту команду в чужих участках.'
   autoAction:
-    stopped: '&8[&aLands&8] &cStopped your current auto action. &7Reached max rounds.
+    stopped: '&8[&aLands&8] &cОстоновлнна автоматическая структура заданий. &7Достигнута макс. кол-во оборотов.
       Name:&b {name}'
-    started: '&8[&aLands&8] &7Successful started auto action. Name:&b {name}'
-    removed: '&8[&aLands&8] &7Successful stopped auto action. &7Name:&b {name}'
+    started: '&8[&aLands&8] &7Успешно начата автоматическая структура заданий. Name:&b {name}'
+    removed: '&8[&aLands&8] &7Успешно закончена автоматическая структура заданий. &7Name:&b {name}'
 command:
   general:
-    land-not-exist: '&8[&aLands&8] &cThe land&e {land} &cdoesn''t exist. &7There''s
-      no land with the name&b {land} &7in this world.'
-    land-not-member: '&8[&aLands&8] &cYou''re not trusted in land&e {land}&c. &7Use
-      &8/&aLands menu &7to see the lands you''re member of.'
-    land-not-part: '&8[&aLands&8] &cYou can''t do that. &7Player&b {player} &7isn''t
-      part of this land &8(&7Land:&e {land}&8)&7. You need to trust him first using
+    land-not-exist: '&8[&aLands&8] &cУчасток &e {land} &cне существует. &7В мире
+      не существует участок с таким именем: e&b {land}'
+    land-not-member: '&8[&aLands&8] &cВы не являетесь участником &e {land}&c. &7Используйте
+      &8/&aLands menu &7чтобы увидеть к каким участкам вы всё-таки относитесь.'
+    land-not-part: '&8[&aLands&8] &cВы не можете этого сделать. &7Игрок&b {player} &7не является
+      участником этого участка &8(&7Land:&e {land}&8)&7. Его сначала надо добавить, используя 
       &8/&aLands trust&7.'
-    land-no-action: '&8[&aLands&8] &cYou''re not member of an land where you''re allowed
-      to do this. &7Use &8/&aLand create &7to create one.'
-    name-exists: '&8[&aLands&8] &cThis name is already taken by an other land. &7You
-      need to choose an different one.'
+    land-no-action: '&8[&aLands&8] &cУ вас нет участков, в которых вам 
+    разрешается делать это. &7Используйте &8/&aLand create &7 чтобы создать свой участок.'
+    name-exists: '&8[&aLands&8] &cЭто имя уже используется другим участком. &7Вам придется
+      придумать другое.'
     money-cost: '&8[&aLands&8] &cYou don''t have enough to pay the cost. &7You need&b
       ${cost}&7.'
     lands-max: '&8[&aLands&8] &cYou can''t be part of any more lands. &7You reached
