@@ -389,8 +389,8 @@ command:
       {x} &7Z:&e {z}&8)&7.'
   menu:
     notExist: '&8[&aLands&8] &cОб этом игроке не найдено никакой информации.'
-    no-permission-other: '&8[&aLands&8] &cYou''re not allowed to open other players
-      GUIs. &7You need permission&e lands.command.menu.others &7to do that.'
+    no-permission-other: '&8[&aLands&8] &cУвы, но вам не разрешено открывать графический
+      интерфейс других пользователей. &7Вам нужны права &e lands.command.menu.others &7чтобы сделать это.'
   chat:
     format: '&8[&aLands&8] [&d{land}&8] {role} &7{player}&8:&f {message}'
 list:
